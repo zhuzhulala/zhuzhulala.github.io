@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+</head>
+<a href="https://www.mywebsite.com zhengzhengex31">
+<body>
+    <input type="text" id="inputField" placeholder="Enter a value">
+    <button onclick="validateInput()">Check Value</button>
+    <p id="resultMessage"></p>
+
+    <script>
+        function validateInput() {
+            var inputValue = document.getElementById('inputField').value;
+            var resultMessage = document.getElementById('resultMessage');
+
+            if (inputValue === '') {
+                resultMessage.innerText = "Value too small";
+            } else if (inputValue.length > 10) {
+                resultMessage.innerText = "Value too large";
+            } else {
+                resultMessage.innerText = "Input OK";
+            }
+        }
+    </script>
+</body>
+</html>
