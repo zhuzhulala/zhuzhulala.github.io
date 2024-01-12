@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Codystar|Josefin+Slab&display=swap'); 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+a {
+    outline: 0;
+    }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+.head-of-offer, .para-of-offer{
+    color:black
+}
+.index-main-img {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../images/products-img/lauren-fleischmann-R2aodqJn3b8-unsplash\ \(1\).jpg);
+    font-family: cursive;
+    height: 700px;
+    background-size: cover;
+    color: white;
+    align-items: center; /* Center vertically */ /* Center text within the container */
+    padding-left: 100px;
+    font-size: 40px;
+}
+
+/*sec2*/
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.cards{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: auto;
+    text-align: center;
+}
+
+.cards span{
+    color: black;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.cards:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: all 0.7s ease;
+    background-color: rgb(237, 236, 236);
+    color: white;
+}
+
+.cards .text:hover{
+    color: rgb(199, 104, 56);
+}
+
+.cards .images{
+    background-color: rgb(255, 255, 255);
+    height: 230px;
+    background-size: cover;
+    border: 1px black;
+    margin-bottom: 10px;
+}
+
+.cards .text{
+    flex: 1;
+    padding: 10px;
+    color: rgb(95, 95, 95);
+    
+}
+
+.sec3{
+    height: 300px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.sec3 span{
+    font-size: 50px;
+}
+
+.p1{
+    background-image: url(../imeg/fastt\ fashion.jpg);
+}
+
+.p2{
+    background-image: url(../imeg/sayno.jpg_large);
+}
+
+.p3{
+    background-image: url(../imeg/Sustainable_Development_Goals_logo.svg.png);
+}
+
+.p4{
+    background-image: url(../imeg/who.png);
+}
+
+.sec4{
+    height: 1300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.sec4 .box1{
+    height: 620px;
+    width: 95%;
+    background-color: rgb(166, 188, 194);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.sec4 .box1 .left{
+    height: 590px;
+    width: 590px;
+    background-color: blue;
+    background-image: url(../imeg/profesional.jpg);
+    background-size: cover;
+}
+
+.sec4 .box1 .right{
+    width: 788px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec4 .box1 .right .bruh{
+    font-size: 35px;
+}
+.sec4 .box1 .right span{
+    text-align: center;
+}
+
+.sec4 .box2{
+    height: 620px;
+    width: 95%;
+    background-color: rgb(166, 188, 194);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.sec4 .box2 .left{
+    height: 590px;
+    width: 590px;
+    background-color: blue;
+    background-image: url(../imeg/bad.jpg);
+    background-size: cover;
+}
+
+.sec4 .box2 .right{
+    width: 788px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec4 .box2 .right .bruh{
+    font-size: 35px;
+}
+.sec4 .box2 .right span{
+    text-align: center;
+}
+.sec5 span{
+    font-size: 50px;
+}
+.sec5{
+    height: 300px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.sec6{
+    height: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.sec6 .box1{
+    height: 360px;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    border: black solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.sec6 .box1 .left{
+    height: 300px;
+    width: 400px;
+    
+}
+
+.sec6 .box1 .right{
+    width: 788px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec6 .box1 .right .bruh{
+    font-size: 35px;
+}
+.sec6 .box1 .right span{
+    text-align: center;
+}
+
+.sec6 .box2{
+    height: 360px;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    border: black solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.sec6 .box2 .left{
+    height: 300px;
+    width: 400px;
+    
+}
+
+.sec6 .box2 .right{
+    width: 788px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec6 .box2 .right .bruh{
+    font-size: 35px;
+}
+.sec6 .box2 .right span{
+    text-align: center;
+}
+
+.sec7{
+    height: 400px;
+    width: 100%;
+    background-color: blue;
+    background-image: url(../imeg/sdgs-graphic.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 50px;
+}
+
+.sec7 .text{
+    height: 180px;
+    width: 600px;
+    background-color: rgb(16, 52, 21);
+    color: white;
+    font-size: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 20px;
+}
+
+.sec8{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec8 .cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.sec8 .cards{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.sec8 .cards span{
+    color: black;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.sec8 .cards:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: all 0.7s ease;
+    background-color: rgb(237, 236, 236);
+    color: white;
+}
+
+.sec8 .cards .text:hover{
+    color: rgb(199, 104, 56);
+}
+
+.sec8 .cards .images{
+    background-color: rgb(255, 255, 255);
+    height: 280px;
+    background-size: cover;
+    border: 1px black;
+    margin-bottom: 10px;
+}
+
+.sec8 .cards .text{
+    flex: 1;
+    padding: 10px;
+    color: rgb(95, 95, 95);
+    
+}
+
+.sec8 .sec3{
+    height: 300px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.sec8 .sec3 span{
+    font-size: 50px;
+}
+
+.sec8 .p1{
+    background-image: url(../imeg/sdgs6.png);
+}
+
+.sec8 .p2{
+    background-image: url(../imeg/sdgs8.png);
+}
+
+.sec8 .p3{
+    background-image: url(../imeg/sdgs12.jpg);
+}
+
+.sec8 .p4{
+    background-image: url(../imeg/SDGs-14.jpg);
+}
+
+@media only screen and (max-width:748px){
+    .index-main-img{
+        padding-top:116px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+@media screen and (min-width:300px){
+    .index-main-img{
+        padding-top:70px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+@media screen and (min-width:200px){
+    .index-main-img{
+        padding-top:100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+
+.index-grid-img-1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.info-of-img-below{
+    text-align:center;
+    color:#ffffff;
+    background-color: #f84258; 
+    height:30px;
+    padding-top:5px;
+}
+@media screen and (max-width:891px){
+    .info-of-img-below{
+        font-size:12px;
+    }
+}
+@media screen and (max-width:712px){
+    .info-of-img-below{
+        font-size:9px;
+    }
+}
+.index-grid-img-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+    margin-left:20px;
+    margin-right: 20px;
+    
+}
+
+.index-grid-img-2 img:nth-child(3){
+    width:372px;
+    object-fit:cover;
+}
+.index-grid-img-2 img:nth-child(1){
+    width:253px;
+    object-fit:cover;
+}
+.index-grid-img-2 img:nth-child(4){
+    width:372px;
+    object-fit:cover;
+}
+.index-grid-img-2 img:nth-child(2){
+    width:273px;
+    object-fit:cover;
+}
+.index-grid-img-2 img:nth-child(5){
+    width:275px;
+    object-fit:cover;
+}
+.index-grid-img-2 img:nth-child(6){
+    width:275px;
+    object-fit:cover;
+}
+.head-of-offer{
+    padding-left:50px;
+}
+.para-of-offer{
+    padding-left:50px;
+}
+@media screen and (max-width:400px){
+    .head-of-offer{
+        font-size: 16px;
+    }
+    .para-of-offer{
+        font-size:11px;
+    }  
+}
+.index-grid-img-3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-gap: 20px;
+    margin-left:20px;
+}
+@media screen and (max-width:1130px){
+    .index-grid-img-3{
+      padding-left:30px;
+      padding-right:30px;
+    }
+  }
+  
+.footer-container{
+    align-content: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    background-color: black;
+    object-fit: cover;
+    padding-bottom:30px;
+}
+.footer-container .footer-1, .footer-2, .footer-3, h5,h4,h2,h3,h6,p{
+    color:white;
+}
+
+.footer-container .footer-1 h2,p,h5,h6{
+    padding-left:50px;
+    padding-top:20px  
+}
+
+.footer-container .footer-2,.footer-3{
+    padding-top:70px;
+}
+.copy-right{
+    font-family: 'Playfair display';
+    text-align: center;
+    color:#000000; 
+    font-size:27px;
+}
+.copy-right a{
+    color:#000000; 
+}
+@media  screen and (max-width:593px){
+    .footer-container .footer-1 h2,p,h5,h6{
+        padding-left:10px;
+    }
+
+     .copy-right {
+        font-size:19px;
+    }
+}
